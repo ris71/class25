@@ -1,0 +1,96 @@
+.box1{
+    height:100px;
+    width:100px;
+    background-color:green;
+    margin-bottom:10px;
+    opacity:0.5;
+}
+.box2{
+    height:100px;
+    width:100px;
+    background-color:green;
+    opacity:1;
+}
+.box1:hover{
+    opacity:1;
+}
+body{
+    margin:0;
+}
+ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background:#161616;
+    position:fixed;
+    top:0;
+    width:25%;
+    height=100%
+    float:left;
+} 
+/*li{
+    float:left;
+}*/
+li a{
+    display:block;
+    color:white;
+    padding: 10px 10px;
+    text-decoration:none;
+}
+li a:hover:not(.active){
+    background-color:#090808;
+}
+.active{
+    background: darkgreen;
+}
+img{
+    height: 450PX;
+    width: 700px;
+}
+.main{
+    margin-left:26%;
+}
+.dropdown-content{
+    display:none;
+    margin:left 26%;
+    position:absolute;
+    background-color:#411515;
+    min-width:150px;
+    box-shadow:0px 7px 14px 8px rgb( 0,0,0,0,2);
+    z-index:1;
+
+}
+.dropdown:hover.dropdown-content{
+    display:block;
+}
+.gallery{
+    float:left;
+    border:5px solid green;
+    width:100px;
+    padding:5px;
+    border-radius:5px 5px 0px 0px;
+    margin:left;
+   
+
+
+    }
+img{
+    width:20%;
+    height:20%;
+}
+.text{
+    text-align:left;
+}
+a[target="_blank"]{
+    text-decoration:none;
+    color:red;
+    font-weight:bold;
+}
+img[ title~="first"]{
+    margin-bottom: 15px;
+    border: 4px dotted red;
+}
+ [class|="main"]{
+    color: green;
+}
